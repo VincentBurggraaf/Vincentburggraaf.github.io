@@ -52,3 +52,25 @@ ul{
 #tekst{
   display:none;
 }
+
+@media(max-width: 768px){
+  header,
+  img,
+  body,
+  h1,
+  h2,
+  h3,{
+    float:none;
+    width: 100%;
+}
+
+#tekst{
+
+}
+ul{
+  text-align:center;
+  width:100%;
+  padding:10px 0;
+  margin:0;
+}
+}
