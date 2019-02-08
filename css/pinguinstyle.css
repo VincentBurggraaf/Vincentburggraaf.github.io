@@ -59,20 +59,12 @@ ul{
   body,
   h1,
   h2,
-  h3,{
+  h3,
+  ul{
     float:none;
     width: 100%;
 }
 
-#tekst{
-width:100%;
-margin:0;
-}
-ul{
-  text-align:center;
-  width:100%;
-  padding:10px 0;
-  margin:0;
+  }
 
-}
 }
