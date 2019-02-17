@@ -7,6 +7,7 @@
 body{
   background-color:#f4f4f4;
 }
+
 header{
   background: #c1dea0;
   color:#0F0;
@@ -65,7 +66,7 @@ header .last{
 
 /* Showcase */
 
-p#titel{
+h1#titel{
   margin-left:65px;
   margin-top:50px;
   font-family: 'Gabriela';
@@ -76,77 +77,104 @@ p#titel{
 hr {
 	border-top: 1px solid #8c8b8b;
 	border-bottom: 1px solid #fff;
-  margin-top:50px;
+  margin-top:25px;
   margin-bottom:25px;
   width:55%;
   margin-left:65px;
 }
+#tweedelijn {
+margin-left:315px;
+width:50%;
+}
 
+#ondertitel {
+  text-align:center;
+  font-family: 'Gabriela';
+  font-size:32px;
+  margin-top:25px;
+  margin-bottom:10px;
+  font-style:italic;
+}
 /* Body */
 
+#main_col h2{
+  margin-bottom:25px;
+}
 aside#sidebar{
   width:30%;
-  float:right;
-  margin-top:0px;
+  margin-top:0;
+  display:inline;
 }
 
 article#main_col{
   float:left;
   width:55%;
-  margin-top:10px;
+  margin-top:0px;
   margin-left:65px;
+  margin-right:100px;
   font-family: 'Gabriela';
-  letter-spacing:1.5px;
+  letter-spacing:1.0px;
   font-size: 18px;
-
-
 }
 
 aside#sidebar img{
-  max-width:250px;
-  max-height:250px;
-  margin-top:-10px;
+  max-width:300px;
+  max-height:300px;
   border-radius:100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  object-fit: contain;
+  margin-top:25px;
 }
 
 section#main {
-  min-height:300px;
+  min-height:385px;
 }
+
 /* Solliciteren */
-
-section#solliciteren{
-  justify-content:center;
-}
-
 #solliciteren{
+  margin-top:40px;
   padding-top:20px;
   padding-bottom:20px;
   background-color:#c1dea0;
+  text-align:center;
+  position:relative;
 }
 
 #solliciteren h1{
-  margin-left:55px;
   font-family: 'Gabriela';
   font-weight:bold;
   color:black;
   font-size:20px;
-  width:50%;
   margin-right:0px;
-  position:relative;
 }
 
-#solliciteren a{
-  text-decoration: none;
-  font-family: 'Gabriela';
-  cursor:pointer;
+#solliciteren img{
+  max-width:550px;
+  max-height:auto;
+  margin-top:20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom:40px;
   position:relative;
-  float:right;
-  top:-23px;
-  margin-right:220px;
-  color:#f6469f;
-  font-weight:bold;
+
+}
+
+#solliciteren button{
+  position:absolute;
+  width:250px;
+  max-width:100%;
+  padding: 1em 2em;
+  background-color:#9fbf7b;
+  border:1px solid #9fbf7b;
+  font-size:16px;
+  border-radius:.50em;
+  top:78%;
+  left:40%;
+  font-family: 'Gabriela';
+  text-shadow: 0 1px 0;
+}
+
+#solliciteren button:hover{
+  background-color:#f6469f;
+  cursor:pointer;
 }
 
 /* Boxes */
@@ -165,8 +193,8 @@ section#solliciteren{
 #boxes{
   margin-top: 25px;
   font-family: 'Gabriela';
-  letter-spacing: 1.5px;
-  font-size: 18px;
+  letter-spacing: 1.1px;
+  font-size: 14px;
 }
 
 #boxes .box{
@@ -183,6 +211,10 @@ section#solliciteren{
   opacity:0.8;
 }
 
+#boxes .box p{
+  text-align:left;
+  margin-left:50px;
+}
 /* Footer */
 
 footer {
@@ -236,8 +268,7 @@ footer {
   padding: 2px;
   cursor:pointer;
 }
-#navigatie {
-  text-decoration: none;
+#navigatie li{
 }
 
 #navigatie a{
