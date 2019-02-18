@@ -66,6 +66,18 @@ header .last{
 
 /* Showcase */
 
+#showcase{
+  height:400px;
+  background:url('../img/showcase2.jpg') -400px;
+   background-position: center;
+   background-size: cover;
+  text-align:center;
+  color:#fff;
+  background-color:#35424a;
+  text-shadow:0px 2px 2px #000;
+}
+
+
 h1#titel{
   margin-left:65px;
   margin-top:50px;
@@ -74,7 +86,7 @@ h1#titel{
   color:black;
 }
 
-hr {
+#eerstelijn {
 	border-top: 1px solid #8c8b8b;
 	border-bottom: 1px solid #fff;
   margin-top:25px;
@@ -82,9 +94,10 @@ hr {
   width:55%;
   margin-left:65px;
 }
-#tweedelijn {
-margin-left:315px;
-width:50%;
+
+#tweedelijn{
+  text-align:center;
+  margin-top:2em;
 }
 
 #ondertitel {
@@ -117,6 +130,10 @@ article#main_col{
   font-size: 18px;
 }
 
+article p{
+  text-align:justify;
+}
+
 aside#sidebar img{
   max-width:300px;
   max-height:300px;
@@ -131,7 +148,8 @@ section#main {
 
 /* Solliciteren */
 #solliciteren{
-  margin-top:40px;
+  width:100%;
+  margin:0 auto;
   padding-top:20px;
   padding-bottom:20px;
   background-color:#c1dea0;
@@ -148,28 +166,27 @@ section#main {
 }
 
 #solliciteren img{
-  max-width:550px;
-  max-height:auto;
-  margin-top:20px;
+  width:550px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom:40px;
-  position:relative;
-
+  margin-top:1em;
+  margin-bottom:1em;
 }
 
 #solliciteren button{
-  position:absolute;
-  width:250px;
-  max-width:100%;
-  padding: 1em 2em;
-  background-color:#9fbf7b;
-  border:1px solid #9fbf7b;
-  font-size:16px;
-  border-radius:.50em;
-  top:78%;
-  left:40%;
-  font-family: 'Gabriela';
-  text-shadow: 0 1px 0;
+position: absolute;
+transform: translate(-50%,-50%);
+margin-right: -50%;
+top: 80%;
+left: 50%;
+width:250px;
+max-width:100%;
+padding: 1em 2em;
+background-color:#9fbf7b;
+border:1px solid #9fbf7b;
+font-size:16px;
+border-radius:.50em;
+font-family: 'Gabriela';
+text-shadow: 0 1px 0;
 }
 
 #solliciteren button:hover{
@@ -212,7 +229,7 @@ section#main {
 }
 
 #boxes .box p{
-  text-align:left;
+  text-align:justify;
   margin-left:50px;
 }
 /* Footer */
