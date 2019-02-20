@@ -57,7 +57,7 @@ header .highlight, header .current a:hover{
 }
 
 header a:hover{
-  color:#666;
+  color:#f6469f;
 }
 
 header .last{
@@ -75,6 +75,7 @@ header .last{
   color:#fff;
   background-color:#35424a;
   text-shadow:0px 2px 2px #000;
+
 }
 
 
@@ -151,8 +152,9 @@ section#main {
   width:100%;
   margin:0 auto;
   padding-top:20px;
-  padding-bottom:20px;
-  background-color:#c1dea0;
+  background-image:linear-gradient(
+    #c1dea0, #e6f2d9
+    );
   text-align:center;
   position:relative;
 }
@@ -307,10 +309,7 @@ margin-bottom:10px;
 #contact{
   text-align:center;
 }
-#contact ul {
-  font-weight:400;
-}
 
 #contact img {
-  vertical-align: middle;
+  justify-content: left;
 }
