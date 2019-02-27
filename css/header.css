@@ -64,6 +64,9 @@ header .last{
   margin-right:20px;
 }
 
+
+}
+
 /* Showcase */
 
 #showcase{
@@ -122,13 +125,18 @@ aside#sidebar{
 
 article#main_col{
   float:left;
-  width:55%;
+  width:45%;
   margin-top:0px;
   margin-left:65px;
   margin-right:100px;
   font-family: 'Gabriela';
   letter-spacing:1.0px;
   font-size: 18px;
+}
+
+#main_col p{
+  text-align:justify;
+  margin-bottom:10px;
 }
 
 article p{

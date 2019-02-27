@@ -1,0 +1,137 @@
+/* Header */
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background-color:#f4f4f4;
+}
+
+header{
+  background: #c1dea0;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#c1dea0 3px solid;
+
+}
+
+header .container {
+  width: 100%;
+}
+
+header a{
+  color:#000;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+  font-family: 'Gabriela', bold;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 10px 0 10px;
+}
+
+header img{
+  margin-left:65px;
+  width:120px;
+  margin-top:-10px;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#f6469f;
+  font-weight:bold;
+}
+
+header .highlight, header .current a:hover{
+  color:#f6469f;
+  font-weight:bold;
+}
+
+header .current{
+color:#f6469f;
+font-weight:bold;
+text-transform: uppercase;
+font-family: 'Gabriela';
+
+}
+header a:hover{
+  color:#f6469f;
+}
+
+header .last{
+  margin-right:20px;
+}
+
+.sollicitatie{
+  max-width:80%;
+  float:left;
+  margin-left: 65px;
+  margin-top:25px;
+  font-family: 'Gabriela';
+  text-align:justify;
+
+}
+
+
+#boxes .box img{
+  width:200px;
+  height:200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom:20px;
+  margin-left:50px;
+}
+
+
+#boxes h3{
+  margin-bottom:20px;
+  font-family: 'Gabriela';
+  font-size:26px;
+  margin-left:50px;
+}
+
+#boxes p{
+  text-align:justify;
+  margin-left:50px;
+  border: 10px solid;
+}
+.sollicitatie p{
+  width:40%;
+}
+
+.sollicitatie h1{
+  margin-bottom:10px;
+}
+
+.sollicitatie h3{
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+h3 a{
+  color:#f6469f;
+  text-decoration: none;
+}
+
+
+
+#boxes .box{
+  float:left;
+  width: 30%;
+  padding:15px;
+  text-align:center;
+}
+
+#boxes{
+  margin-top: 25px;
+  font-family: 'Gabriela';
+  letter-spacing: 1.1px;
+  font-size: 14px;
+}

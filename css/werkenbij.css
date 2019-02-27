@@ -94,7 +94,7 @@ header .last{
 }
 
 #titelentijn hr{
-  width:45%;
+  width:30%;
   border-top: 1px solid #8c8b8b;
   border-bottom: 1px solid #fff;
 }
@@ -114,6 +114,7 @@ header .last{
   margin-right:100px;
 }
 
+
 /* Fotorol */
 
 
@@ -123,14 +124,15 @@ ul{
 }
 
 .hoofd {
-  font-size:16px;
+  font-size:18px;
   margin-bottom:5px;
   font-weight:bold;
 }
 
 .sub {
-  font-size:14px;
+  font-size:16px;
   margin-bottom:10px;
+  text-align:justify;
 }
 
 
@@ -138,11 +140,11 @@ aside{
   width:40%;
   float:left;
   height:400px;
-  margin-top:25px;
+  margin-top:50px;
   display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  margin-bottom:50px;
+  margin-bottom:75px;
   grid-gap:5px;
 }
 
@@ -199,15 +201,64 @@ aside img{
   margin-left:65px;
   margin-top:20px;
   max-width:400px;
+  margin-bottom:50px;
+  float:left;
+  max-width:400px;
+  max-height:269px;
 }
 
 #programma img:hover{
-  transform: scale(1.8);
+  transform: scale(2.0);
   margin-left:200px;
   -webkit-transition: all 1s ease;
  -moz-transition: all 1s ease;
  -ms-transition: all 1s ease;
  transition: all 1s ease;
+}
+
+#overanimatie{
+  margin-left:65px;
+  font-family: 'Gabriela';
+  float:left;
+  width:40%;
+  text-align:justify;
+  margin-bottom:20px;
+  margin-right: 200px;
+}
+
+#overanimatie h2{
+  margin-bottom:10px;
+  margin-top:10px;
+}
+
+#laatstezin{
+  font-weight:bold;
+  font-size:20px;
+}
+
+#benjij{
+  font-style:italic;
+  font-size:18px;
+}
+
+#linkvacatures{
+  color:#9cca68;
+}
+
+#linkvacatures:hover{
+  cursor:pointer;
+}
+
+#quotes{
+  text-align:center;
+
+}
+
+#quotes img{
+  margin-top:50px;
+  width:150px;
+  height:150px;
+  vertical-align: middle;
 }
 /* Footer */
 
