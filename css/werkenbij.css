@@ -112,6 +112,7 @@ header .last{
   width:40%;
   float:left;
   margin-right:100px;
+  margin-bottom:50px;
 }
 
 
@@ -135,12 +136,14 @@ ul{
   text-align:justify;
 }
 
+#aside {
 
+}
 aside{
   width:40%;
   float:left;
-  height:400px;
-  margin-top:50px;
+  height:512px;
+  margin-top:66px;
   display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -149,6 +152,7 @@ aside{
 }
 
 aside img{
+
   width:100%;
   height:100%;
   object-fit:cover;
@@ -224,6 +228,7 @@ aside img{
   text-align:justify;
   margin-bottom:20px;
   margin-right: 200px;
+  max-width:40%;
 }
 
 #overanimatie h2{
@@ -250,16 +255,46 @@ aside img{
 }
 
 #quotes{
+  float:left;
   text-align:center;
+  max-width:30%;
 
 }
 
 #quotes img{
   margin-top:50px;
-  width:150px;
-  height:150px;
+  max-width:300px;
+  height:auto;
   vertical-align: middle;
+  border-radius: 10px;
 }
+
+#quotes q{
+  float:left;
+  margin-top:1em;
+  font-family: 'Gabriela';
+  font-style: italic;
+  font-size: 18px;
+  margin-bottom:50px;
+  line-height: 1em;
+}
+
+#quotes q:before{
+  color:#c1dea0;
+  font-size:32px;
+  margin-right:3px;
+}
+
+#quotes q:after{
+  color:#c1dea0;
+  font-size:32px;
+  margin-left:3px;
+}
+
+#quotes p{
+  margin-bottom:10px;
+}
+
 /* Footer */
 
 footer {
