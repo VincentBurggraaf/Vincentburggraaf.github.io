@@ -1,0 +1,250 @@
+/* Header */
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background-color:#f4f4f4;
+
+}
+
+header{
+  background: #c1dea0;
+  color:#0F0;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#c1dea0 3px solid;
+
+}
+
+header .container {
+  width: 100%;
+}
+
+header a{
+  color:#000;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+  font-family: 'Gabriela', bold;
+}
+
+header li{
+  float:left;
+  display:block;
+  padding: 0 10px 0 10px;
+}
+
+.dropdown {
+  color:#f6469f;
+}
+ul li ul {
+  visibility: hidden;
+  position: absolute;
+  transition: all 1.0s ease;
+  display: none;
+  min-width:5rem;
+}
+
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover {
+  visibility: visible;
+  display: block;
+  z-index:9999;
+  padding:2px;
+  color:#f6469f;
+}
+
+ul li ul li {
+  clear: both;
+  width: 100%;
+  padding:5px;
+}
+
+
+
+header img{
+  margin-left:65px;
+  width:120px;
+  margin-top:-10px;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#f6469f;
+  font-weight:bold;
+}
+
+header .highlight, header .current a:hover{
+  color:#f6469f;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#f6469f;
+}
+
+header .last{
+  margin-right:20px;
+}
+
+html {
+scroll-behavior: smooth
+}
+
+/* Modal */
+
+.background{
+height:100vh;
+width:100%;
+background: url("../img/kinderenverven.jpg") no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+position:relative;
+
+}
+
+
+.bg-modal{
+  width:100%;
+  height:100vh;
+  background-color:black;
+  position:absolute;
+  top:0;
+  background-color:rgba(0, 0, 0, 0.4);
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.modal-content{
+  margin-top:50px;
+  width:400px;
+  height:350px;
+  background-image:linear-gradient(
+    #c1dea0, #e6f2d9
+    );
+  border-radius:8px;
+  text-align:center;
+}
+
+.modal-content h2{
+  padding:20px;
+}
+
+.btn{
+  width:300px;
+  max-width:100%;
+  padding: 1em 2em;
+  background-color:#9fbf7b;
+  border:1px solid #9fbf7b;
+  font-size:16px;
+  border-radius:.50em;
+  font-family: 'Gabriela';
+  text-shadow: 0 1px 0;
+  margin-bottom:10px;
+}
+
+.btn:hover{
+  cursor:pointer;
+  color:#f6469f;
+}
+
+/* Animatiewerk */
+
+#first{
+  text-align:center;
+  margin-top:5em;
+}
+
+#first img{
+  text-align:center;
+  max-width:1000px;
+  max-height:500px;
+}
+
+ul#Diensten li{
+  List-style:none;
+  Padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#cde4b4;
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#e8491d;
+  text-align:center;
+}
+
+#contact{
+  text-align:center;
+  padding-top:0px;
+}
+
+aside#sidebar{
+  font-family:'Gabriela';
+  width:30%;
+  float:right;
+}
+
+aside#sidebar h3{
+  margin-bottom: 10px;
+}
+
+.dark{
+  margin-right:65px;
+  padding:15px;
+  background:#9fbf7b;
+  color:black;
+  margin-bottom:10px;
+}
+
+/* Main_col */
+.paginatitel {
+  text-align:center;
+  font-family:'Gabriela';
+  font-size: 32px;
+  margin-bottom:25px;
+}
+article#main_col{
+  text-align:left;
+  font-family:'Gabriela';
+  margin-left:65px;
+  float:left;
+  width:60%;
+}
+
+li h3{
+  margin-bottom:10px;
+
+}
+
+li p{
+  font-family:'Gabriela';
+  width:75%;
+  text-align:justify;
+  margin-bottom:20px;
+  font-size:18px;}
+
+article#main_col img{
+  width:215px;
+  max-height:215px;
+  margin-right:20px;
+  box-shadow: 0 0 12px 0 rgba(0,0,0,.5);
+  margin-bottom:15px;
+}
+
+#fotowerk {
+  width:450px !important;
+}
