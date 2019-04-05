@@ -378,8 +378,7 @@ margin-bottom:10px;
 
 }
 @media screen and (min-width: 1366px) {
-.container1 p
-{
+.container1 p{
   text-align:justify;
   clear:both;
   font-family:'Gabriela';
@@ -389,6 +388,18 @@ margin-bottom:10px;
   margin-bottom:20px;
   font-size:22px;
   }
+
+.container1{
+    margin-left:20em;
+    margin-right:20em;
+    Padding:20px;
+    border: #cccccc solid 1px;
+    margin-bottom:20px;
+    background:#cde4b4;
+    object-fit:contain;
+    text-align:center;
+  }
+
 
 
 }
