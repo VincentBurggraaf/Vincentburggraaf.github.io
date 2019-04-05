@@ -374,3 +374,21 @@ margin-bottom:10px;
 #contact img {
   justify-content: left;
 }
+
+
+}
+@media screen and (min-width: 1366px) {
+.container1 p
+{
+  text-align:justify;
+  clear:both;
+  font-family:'Gabriela';
+  width:30%;
+  margin:auto;
+  margin-top:10px;
+  margin-bottom:20px;
+  font-size:22px;
+  }
+
+
+}
