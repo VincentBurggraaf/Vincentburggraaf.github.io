@@ -377,7 +377,8 @@ margin-bottom:10px;
 
 
 }
-@media screen and (min-width: 1366px) {
+
+@media screen (min-width: 1366px) {
 .container1 p{
   text-align:justify;
   clear:both;
