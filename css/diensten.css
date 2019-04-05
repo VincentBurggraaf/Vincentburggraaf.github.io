@@ -166,8 +166,8 @@ position:relative;
 }
 
 .container1{
-  margin-left:9em;
-  margin-right:9em;
+  margin-left:12em;
+  margin-right:12em;
   Padding:20px;
   border: #cccccc solid 1px;
   margin-bottom:20px;
@@ -231,8 +231,8 @@ footer{
 }
 
 #fotowerk {
-  width:50% !important;
-  max-width:50% !important;
+  max-width:370px !important;
+  width:370px !important;
   text-align:center;
   box-shadow: 0 0 12px 0 rgba(0,0,0,.5);
   margin-bottom:15px;
