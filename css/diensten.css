@@ -378,7 +378,8 @@ margin-bottom:10px;
 
 }
 
-@media(min-width: 1366px) {
+@media(min-width: 1366px)
+{
 .container1 p{
   text-align:justify;
   clear:both;
