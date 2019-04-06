@@ -397,4 +397,9 @@ font-size:18px;
   text-align:center;
 }
 
+.container1 img{
+  max-width:260px;
+  width:260px;
+}
+
 }
