@@ -148,6 +148,7 @@ h1#titel{
   margin-bottom:25px;
 }
 aside#sidebar{
+  float:left;
   width:30%;
   margin-top:0;
   display:inline;
@@ -178,10 +179,8 @@ aside#sidebar img{
   max-height:350px;
   border-radius:100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-top:20px;
-  position:absolute;
-  left:65%;
-  top:35%;
+  margin-top:100px;
+  margin:auto;
 }
 
 section#main {
