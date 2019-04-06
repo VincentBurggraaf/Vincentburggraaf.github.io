@@ -378,7 +378,7 @@ margin-bottom:10px;
 @media (min-width: 1400px) {
 
 .container1 p{
-  width:40%;
+  width:45%;
   font-size:22px;
               }
 
@@ -387,8 +387,8 @@ font-size:18px;
 }
 
 .container1{
-  margin-left:32em;
-  margin-right:32em;
+  margin-left:28em;
+  margin-right:28em;
   Padding:20px;
   border: #cccccc solid 1px;
   margin-bottom:20px;
