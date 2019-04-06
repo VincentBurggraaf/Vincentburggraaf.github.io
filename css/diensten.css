@@ -376,25 +376,12 @@ margin-bottom:10px;
 }
 
 
-}
 
-@media screen and (min-width: 1400px) {
+@media (min-width: 1400px) {
+
 .container1 p{
   width:30%;
   font-size:22px;
-  }
-
-.container1{
-    margin-left:20em;
-    margin-right:20em;
-    Padding:20px;
-    border: #cccccc solid 1px;
-    margin-bottom:20px;
-    background:#cde4b4;
-    object-fit:contain;
-    text-align:center;
-  }
-
-
+              }
 
 }
