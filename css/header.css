@@ -356,3 +356,11 @@ margin-bottom:10px;
 #contact img {
   justify-content: left;
 }
+
+@media (min-width: 1400px) {
+
+aside#sidebar img{
+  margin-left:100px;
+}
+
+}
