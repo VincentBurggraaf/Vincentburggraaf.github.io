@@ -127,6 +127,7 @@ h1#titel{
   margin-bottom:25px;
   width:50%;
   margin-left:65px;
+  float:left;
 }
 
 #tweedelijn{
@@ -276,6 +277,8 @@ text-shadow: 0 1px 0;
 
 #boxes .box p{
   text-align:justify;
+  width:60%;
+  margin:auto;
 }
 /* Footer */
 
@@ -362,5 +365,11 @@ margin-bottom:10px;
 aside#sidebar img{
   margin-left:100px;
 }
+
+#boxes .box p{
+  width:80%;
+  font-size:18px;
+              }
+
 
 }
